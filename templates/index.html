@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dog vs Cat Classifier</title>
+</head>
+<body style="text-align:center; margin-top:50px;">
+
+    <h1>🐶 Dog vs 🐱 Cat Classifier</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+        <h3>Confidence: {{ confidence }}%</h3>
+    {% endif %}
+
+</body>
+</html>
