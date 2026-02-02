@@ -1,0 +1,34 @@
+
+
+---
+
+## 🚫 `.gitignore`
+
+```gitignore
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dataset (large files)
+dataset/
+*.zip
+*.tar
+*.tar.gz
+
+# Model files (optional)
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
